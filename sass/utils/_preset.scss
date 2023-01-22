@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+
+}
+
+body {
+    font-family: Roboto, Sans-Serif;
+    font-style: normal;
+
+
+}
+
+::selection {
+    color: $color-bckgr-secondary;
+    background-color: $color-bckgr-invert;
+
+}

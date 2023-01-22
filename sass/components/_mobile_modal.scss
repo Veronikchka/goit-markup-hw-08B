@@ -1,0 +1,152 @@
+.menu-container {
+
+position:fixed;
+top:0;
+left: 0;
+width: 100vw;
+height:796px;
+
+padding: 48px 40px;
+
+background-color: white;
+
+transform: translateX(100%);
+transition: transform 250ms ease-in-out;
+
+}
+
+.menu-container.is-open {
+    transform: translateX(0);
+
+}
+
+
+.icon-cross__menu {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top:11px;
+    right:11px; 
+
+    border: none;
+    padding: 0;
+    
+ 
+    min-width: 40px;
+    min-height: 40px;
+    
+    background-color: #FFFFFF;
+       
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    margin: 0;
+     
+    
+      
+}
+
+.icon-cross__menu:hover svg,
+.icon-cross__menu:hover svg {
+
+   fill:#2196F3;
+   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+ 
+
+.header__link__mobile {
+        
+        display: block;
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 47px;
+        letter-spacing: 0.02em;
+        margin-bottom: 32px;
+    
+        color: #212121;
+        
+        
+
+        &:hover,
+        &:focus {
+            text-decoration: underline;
+            color: #2196F3;
+ 
+       }
+
+
+}
+
+.header__list__mobile {
+    padding-left: 0;
+}
+
+.footer__contact__menu {
+
+    text-decoration: none;
+}
+
+.footer__contact__menu:first-child {
+display: block;
+margin-top: 274px;    
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 34px;
+line-height: 1,17;
+letter-spacing: 0.02em;
+
+color: #2196F3;}
+
+.footer__contact__menu:last-child {
+
+display: block;
+margin-top: 32px;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.02em;
+
+color: #757575;}
+
+.media-links__menu {
+
+    
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-left: 0;
+
+    margin-top: 64px;
+}
+
+.media-links__item {
+
+    
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 0.8;
+    letter-spacing: 0.02em;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #2196F3;
+
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+
+   
+   
+}
+.first {
+    padding-left: 0;
+}
+
+.last {
+    border-right: 0;
+}
